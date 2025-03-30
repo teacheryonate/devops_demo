@@ -17,7 +17,7 @@ jobs:
     steps:
       # 코드 체크아웃 actions/setup-java@v4는 jdk21버전 이상일 때만 사용함
       - name: Checkout repository
-        uses: actions/checout@v2
+        uses: actions/checkout@v2
       # JDK17설정  
       - name: Setup JDK 17
         uses: actions/setup-java@v1
